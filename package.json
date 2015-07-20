@@ -1,0 +1,43 @@
+{
+  "name": "tailcall",
+  "version": "0.0.0",
+  "description": "Eliminate tail recursive function calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard",
+    "example": "browserify -t ./index.js -e example.js -o example.bundle.js && node example.bundle.js"
+  },
+  "author": "Alexander Gugel <alexander.gugel@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "acorn": "^2.1.0",
+    "escodegen": "^1.6.1",
+    "through": "^2.3.8"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.0",
+    "standard": "^4.5.4"
+  },
+  "bin": {
+    "brfs": "bin/cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderGugel/tailcall.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexanderGugel/tailcall/issues"
+  },
+  "homepage": "https://github.com/alexanderGugel/tailcall#readme",
+  "keywords": [
+    "browserify-transform",
+    "browserify",
+    "ast",
+    "acorn",
+    "perf",
+    "optimization",
+    "recursion",
+    "es6",
+    "shim"
+  ]
+}

@@ -1,0 +1,12 @@
+usage:
+
+  tailcall file
+
+    Eliminate tail recursive function calls from `file`, printing the
+    transformed file contents to stdout.
+
+  tailcall
+  tailcall -
+
+    Eliminate tail recursive function calls from `file`, printing the
+    transformed file contents to stdout.
